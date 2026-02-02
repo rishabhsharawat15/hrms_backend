@@ -1,4 +1,3 @@
-# app/crud.py
 from sqlalchemy.orm import Session
 from sqlalchemy import func, and_
 from sqlalchemy.exc import IntegrityError
