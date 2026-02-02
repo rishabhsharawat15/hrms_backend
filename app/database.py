@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./hrms.db")
-print(DATABASE_URL)
 
 if DATABASE_URL.startswith("sqlite"):
     engine = create_engine(
